@@ -1,0 +1,66 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <div class="name-title">
+            <h1>Your Name</h1>
+            <p>Web Developer</p>
+        </div>
+        <nav>
+            <a href="#about">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <main>
+        <section id="about" class="section-box">
+            <span class="label">About Me</span>
+            <div class="content flex-row">
+                <img class="profile-circle" src="image/hijab-women.png" alt="">
+                <div class="description-box">Short Description</div>
+            </div>
+        </section>
+
+        <section id="skills" class="section-box">
+            <span class="label">Skills</span>
+            <div class="content skills-flex">
+                <div class="skill-tag">HTML</div>
+                <div class="skill-tag">CSS</div>
+                <div class="skill-tag">Flexbox</div>
+                <div class="skill-tag">Responsive Design</div>
+            </div>
+        </section>
+
+        <section id="contact" class="section-box">
+            <span class="label">Contact Me</span>
+            <form class="content contact-grid">
+                <input type="text" placeholder="Name" required>
+                <input type="email" placeholder="Email" required>
+                <input type="text" placeholder="Message" class="msg-subject">
+                <textarea placeholder="Your Message Content" rows="4"></textarea>
+                <button type="submit" class="send-btn">Send</button>
+            </form>
+        </section>
+
+        <footer class="section-box">
+            <span class="label">Footer</span>
+            <div class="footer-content">
+                <p>2025 Your Name</p>
+                <div class="social-icons">
+                    <span>f</span> <span>in</span> <span>O</span>
+                </div>
+            </div>
+        </footer>
+    </main>
+
+</body>
+</html>
